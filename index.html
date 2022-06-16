@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Figma</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
@@ -93,7 +94,7 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarCollapse">
 
-                            <h5 class="text-white ">username</h5>
+                            <h5 class="text-white ">talhahaneef</h5>
                             <img src="assets/Ellipse.png" alt="">
                         </div>
                     </nav>
@@ -107,12 +108,12 @@
 
 
                     <div class="edit ">
-                        <button type="button" class="btn btn-primary float-end">Edit Player</button>
+                        <button type="button" class="btn btn-primary float-end m-2">Edit Player</button>
 
 
 
 
-                        <button type="button" class="btn btn-primary float-end">Renew Membership</button>
+                        <button type="button" class="btn btn-primary float-end m-2">Renew Membership</button>
                     </div>
                 </div>
 
@@ -280,19 +281,19 @@
                 <footer>
 
                     <h1>Player Invoices</h1>
-                    <table class="table-secondary">
+                    <table class="table">
 
                         <thead class="bg-primary ">
                             <tr>
 
-                                <th scope="col" class="p-2 m-3">ID</th>
-                                <th scope="col" class="p-2 m-3">Paid</th>
-                                <th scope="col" class="p-2 m-3">Invoice No</th>
-                                <th scope="col" class="p-2 m-3">Collection Method</th>
-                                <th scope="col" class="p-2 m-3">Start Date</th>
-                                <th scope="col" class="p-2 m-3">Expiry Date</th>
-                                <th scope="col" class="p-2 m-3">Edit Invoice</th>
-                                <th scope="col" class="p-2 m-3">Print Invoice</th>
+                                <th scope="col" class="p-2">ID</th>
+                                <th scope="col" class="p-2">Paid</th>
+                                <th scope="col" class="p-2">Invoice No</th>
+                                <th scope="col" class="p-2">Collection Method</th>
+                                <th scope="col" class="p-2">Start Date</th>
+                                <th scope="col" class="p-2">Expiry Date</th>
+                                <th scope="col" class="p-2">Edit Invoice</th>
+                                <th scope="col" class="p-2">Print Invoice</th>
 
                             </tr>
                         </thead>
@@ -300,26 +301,48 @@
                         <thead>
                         <tbody>
                             <tr>
-                                <th scope="row">2505</th>
+                                <th scope="row" class="p-2 ">2505</th>
                                 <td><img src="assets/icons/done.png"></td>
                                 <td>723724</td>
                                 <td>
-                                    VISA
-                                </td>
-                                <td>July 14, 2021</td>
-                                <td>Sept 14, 2021</td>
-                                <td>7HSK24</td>
-                                <td><img src="assets/icons/edit-i.png"></td>
-                                <td><img src="assets/icons/print.png"></td>
-                            </tr>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">
+                                            Payment
+                                        </button>
+
+                                        <div class="dropdown-content">
+                                            <a href="#">
+                                                <img src="assets/icons/mada.png" width="20" height="15"> Mada</a>
+
+                                            <a href="#">
+                                                <img src="assets/icons/visa.png" width="20" height="15"> VISA</a>
+                                            <a href="#">
+                                                <img src="assets/icons/pkr.png" width="20" height="15"> PKR</a>
+
+                                        </div>
+                                    </div>
+
+</body>
+
+</html>
 
 
-                        </tbody>
+
+</td>
+<td>July 14, 2021</td>
+<td>Sept 14, 2021</td>
+
+<td><img src="assets/icons/edit-i.png"></td>
+<td><img src="assets/icons/print.png"></td>
+</tr>
 
 
-                    </table>
-                </footer>
-            </div>
+</tbody>
+
+
+</table>
+</footer>
+</div>
 
 
 
@@ -328,9 +351,9 @@
 
 
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-                crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
